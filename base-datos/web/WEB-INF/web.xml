@@ -8,6 +8,10 @@
         <servlet-name>ServletAutenticar</servlet-name>
         <servlet-class>com.jc.controladores.ServletAutenticar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>servletBuscarusuarios</servlet-name>
+        <servlet-class>com.jc.controladores.servletBuscarusuarios</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Algo</servlet-name>
         <url-pattern>/primero.xls</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>ServletAutenticar</servlet-name>
         <url-pattern>/autenticar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servletBuscarusuarios</servlet-name>
+        <url-pattern>/usuarios</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
