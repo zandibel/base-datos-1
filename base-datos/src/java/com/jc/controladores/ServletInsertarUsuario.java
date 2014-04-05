@@ -38,8 +38,8 @@ public class ServletInsertarUsuario extends HttpServlet {
     
     Usuario u=new Usuario();
     u.setId(id);
-    u.setNombre(nombre);
-    u.setSueldo(sueldo);
+    u.setLogin(Login);
+    u.setPassword(Password);
    
     DAOUsuario dao=new DAOUsuario();
         try {
