@@ -6,10 +6,7 @@
 
 package com.jc.model;
 
-/**
- *
- * @author campitos
- */
+
 import java.sql.*;
 import java.util.ArrayList;
 public class DAOUsuario {
@@ -39,7 +36,7 @@ public class DAOUsuario {
           Connection conexion=con.conectarse();
           //crear un statement de sql
           Statement st= conexion.createStatement();
-         ResultSet res=st.executeQuery("select * from usuario2 order by login");
+         ResultSet res=st.executeQuery("select * from usuario3 order by login");
           while(res.next()); 
           {
         

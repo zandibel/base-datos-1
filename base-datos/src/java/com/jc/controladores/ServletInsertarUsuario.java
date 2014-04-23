@@ -22,6 +22,8 @@ import javax.servlet.http.HttpServletResponse;
  * @author campitos
  */
 public class ServletInsertarUsuario extends HttpServlet {
+    private String Login;
+    private String Password;
 
   
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

@@ -6,10 +6,7 @@
 
 package com.jc.controladores;
 
-/**
- *
- * @author campitos
- */
+
 public class ControladorMalo {
     
 }
